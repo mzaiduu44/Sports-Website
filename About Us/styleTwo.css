@@ -1,0 +1,413 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+p {
+  margin: 0;
+}
+
+.main-container {
+  width: 90%;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.main-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.divOne {
+  flex: 1 1 25%;
+  background-color: #3b50d9;
+  color: white;
+  padding: 30px 20px;
+  border-radius: 8px;
+  position: relative;
+  overflow: hidden;
+  min-height: 450px;
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.divOne::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(59, 80, 217, 0.8);
+  z-index: 2;
+}
+
+.heading,
+.para {
+  position: relative;
+  z-index: 3;
+  text-align: left;
+}
+
+.heading h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.para p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.divTwo {
+  flex: 1 1 70%;
+}
+
+.two-main-content {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+.touch {
+  margin-bottom: 20px;
+}
+
+.getInTouch {
+  font-size: 2.5rem;
+  color: #333e48;
+  font-weight: 700;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-bottom: 30px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.a-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  border-radius: 50%;
+  font-size: 20px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.a-icons:hover {
+  background-color: black;
+  color: white;
+  transform: scale(1.1);
+}
+
+p.css {
+  color: grey;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+hr {
+  width: 80%;
+  margin: 20px auto;
+  border: 0;
+  height: 1.5px;
+  background: #8a8989;
+}
+.end {
+  width: 100%;
+  border: 0;
+  height: 1.5px;
+  background: #9d9c9c;
+  margin: 30px 0;
+}
+.infoTwo {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.form-heading {
+  text-align: start;
+  color: #333e48;
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+sup {
+  color: red;
+}
+
+.form-label {
+  margin-bottom: 15px;
+  text-align: start;
+  position: relative;
+}
+
+.label {
+  font-size: 1rem;
+  color: #333e48;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+textarea.msg-text {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 0.95rem;
+  transition: border 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+textarea.msg-text:focus {
+  border-color: black;
+}
+
+.main-label-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.form-flexOne,
+.form-flexTwo {
+  flex: 1;
+}
+
+.message-label {
+  margin-top: 20px;
+  text-align: start;
+}
+
+.msg {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #333e48;
+}
+
+textarea.msg-text {
+  resize: none;
+  height: 100px;
+}
+
+.error-message {
+  font-size: 0.75rem;
+  color: red;
+  margin-top: 5px;
+  display: none;
+}
+
+input.error,
+textarea.error {
+  border-color: red;
+}
+
+.button {
+  text-align: end;
+  margin-top: 20px;
+}
+
+.submit-button {
+  background-color: #333e48;
+  color: white;
+  padding: 8px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: black;
+}
+.socialInfo {
+  color: #333e48;
+  font-size: 3rem;
+  font-weight: 600;
+}
+.three-flex {
+  display: flex;
+  width: 100%;
+  margin: 20px 0 13px 0;
+}
+.first-division,
+.second-division {
+  width: 50%;
+  text-align: start;
+}
+.division {
+  padding-left: 17px;
+  font-weight: 600;
+}
+.adressMap {
+  margin: 30px 0 7px 0;
+}
+p.adress.map {
+  color: gray;
+}
+iframe.map {
+  border-radius: 11px;
+  overflow: hidden;
+  border: none;
+}
+.map-embation {
+  border: 1px solid rgb(158, 157, 157);
+  height: 50%;
+  width: 76%;
+  margin: 0 0 5px 20px;
+  border-radius: 5px;
+}
+.googleMapBtn {
+  margin-left: 20px;
+}
+.googleMapBtn {
+  margin-left: 20px;
+}
+
+.map-link {
+  display: inline-block;
+  background-color: #333e48;
+  color: white;
+  text-decoration: none;
+  padding: 8px 15px;
+  font-size: 0.9rem;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+.map-link:hover {
+  background-color: black;
+}
+.socialIconsMain {
+  margin-top: 30px;
+}
+.same {
+  margin: 20px 0;
+  display: flex;
+  gap: 20px;
+}
+a.sameClass {
+  font-size: 2rem;
+  text-decoration: none;
+}
+p.sameClass {
+  font-size: 22px;
+}
+.a-whatsapp {
+  color: green;
+}
+.a-facebook {
+  color: rgb(63, 146, 223);
+}
+.a-website {
+  color: #686767;
+}
+.a-youtube {
+  color: rgb(255, 0, 0);
+}
+.footer {
+  background-color: #0a0a0a;
+  color: #fff;
+  padding: 40px 20px 20px;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-column {
+  flex: 1 1 220px;
+  min-width: 200px;
+}
+
+.footer-column h3 {
+  margin-bottom: 15px;
+  font-size: 18px;
+  color: #ffcc00;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+  color: #ddd;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-column ul li a:hover {
+  color: #ffcc00;
+}
+
+.social-icons a {
+  margin-right: 10px;
+  color: #fff;
+  font-size: 20px;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #ffcc00;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 20px;
+  border-top: 1px solid #333;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #aaa;
+}

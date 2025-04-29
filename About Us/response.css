@@ -1,0 +1,191 @@
+@media (max-width: 600px) {
+  .main-content {
+    flex-direction: column;
+  }
+
+  .divOne,
+  .divTwo {
+    flex: 1 1 100%;
+    min-height: auto;
+  }
+
+  .heading h1 {
+    font-size: 2rem;
+  }
+
+  .getInTouch {
+    font-size: 2rem;
+  }
+
+  .icons {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .main-label-flex {
+    flex-direction: column;
+  }
+
+  .form-flexOne,
+  .form-flexTwo {
+    flex: 1 1 100%;
+  }
+
+  .submit-button {
+    width: 100%;
+    padding: 12px;
+  }
+  h1.socialInfo {
+    font-size: 30px;
+  }
+  .three-flex {
+    display: block;
+    margin: 35px 0 13px 0;
+  }
+  .first-division,
+  .second-division {
+    width: 100%;
+  }
+  .second-division {
+    margin: 15% 0;
+  }
+  .adressMap {
+    margin: 7px 0 7px 0;
+  }
+  .socialIconsMain {
+    margin-top: 17px;
+  }
+  .same {
+    margin: 1px 0;
+    display: flex;
+    gap: 20px;
+  }
+  .division {
+    padding-left: 17px;
+    font-weight: 700;
+  }
+  .footer {
+    padding: 30px 15px 15px;
+  }
+
+  .footer-column h3 {
+    font-size: 16px;
+  }
+
+  .footer-column p,
+  .footer-column ul li a {
+    font-size: 14px;
+  }
+
+  .social-icons a {
+    font-size: 18px;
+  }
+
+  .footer-bottom {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+  .main-content {
+    flex-direction: column;
+  }
+
+  .divOne,
+  .divTwo {
+    flex: 1 1 100%;
+    min-height: auto;
+  }
+
+  .icons {
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+
+  .getInTouch {
+    font-size: 2.2rem;
+  }
+
+  .form-flexOne,
+  .form-flexTwo {
+    flex: 1 1 48%;
+  }
+
+  .submit-button {
+    width: auto;
+    padding: 10px 20px;
+  }
+
+  .main-label-flex {
+    display: block;
+  }
+  .three-flex {
+    display: block;
+    margin: 35px 0 13px 0;
+  }
+  .first-division,
+  .second-division {
+    width: 100%;
+  }
+  .second-division {
+    margin: 15% 0;
+  }
+  .adressMap {
+    margin: 7px 0 7px 0;
+  }
+  .socialIconsMain {
+    margin-top: 17px;
+  }
+  .same {
+    margin: 1px 0;
+    display: flex;
+    gap: 20px;
+  }
+  .division {
+    padding-left: 17px;
+    font-weight: 700;
+  }
+  .socialInfo {
+    font-size: 2rem;
+  }
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-column {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+
+  .social-icons {
+    justify-content: center;
+  }
+}
+
+@media (min-width: 901px) and (max-width: 1200px) {
+  .main-content {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .divOne {
+    flex: 1 1 40%;
+  }
+
+  .divTwo {
+    flex: 1 1 55%;
+  }
+
+  .heading h1 {
+    font-size: 2.2rem;
+  }
+
+  .getInTouch {
+    font-size: 2.4rem;
+  }
+  .footer-container {
+    justify-content: space-around;
+  }
+}

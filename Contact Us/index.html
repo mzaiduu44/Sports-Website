@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap Demo</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      crossorigin="anonymous"
+    />
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styleTwo.css" />
+    <link rel="stylesheet" href="response.css" />
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <style>
+      /* New Added CSS Only */
+      .error-message {
+        font-size: 0.8rem;
+        color: red;
+        margin-top: 5px;
+        display: block;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Header Image -->
+    <header>
+      <img src="images/header-offer-banner.jpg" alt="" class="w-100" />
+    </header>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg header navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand me-5" href="#"
+          ><img src="images/logo.jpg" alt="" width="150px"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <form class="d-flex w-50" role="search">
+            <input
+              class="form-control me-0 w-75 rounded-0"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+              required
+            />
+            <button class="btn btn-light text-dark rounded-0" type="submit">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </form>
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><i class="fa-solid fa-user text-white"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="main-container">
+      <div class="main-content">
+        <div class="divOne">
+          <img
+            src="images/desk-arrangement-with-monitor-plant_23-2149155738.avif"
+            alt="Background Image"
+            class="background-image"
+          />
+          <div class="heading">
+            <h1 class="hOne">Game On</h1>
+          </div>
+          <div class="para">
+            <p class="paraOne">
+              Step into your true potential with our handpicked sports goods. We
+              offer everything from high-performance gear to essential
+              accessories, tailored to boost your game. With products crafted
+              for durability and comfort, we help you reach new heights in every
+              sport. Trust us to be your partner in achieving greatness, on and
+              off the field.
+            </p>
+          </div>
+        </div>
+
+        <div class="divTwo">
+          <div class="two-main-content">
+            <div class="infoOne">
+              <div class="touch">
+                <h1 class="getInTouch">Let's Get In Touch</h1>
+              </div>
+              <div class="icons">
+                <div class="main">
+                  <a href="#" class="a-icons"
+                    ><i class="fa-solid fa-phone"></i
+                  ></a>
+                  <p class="css sameCss">
+                    <a
+                      href="tel:+923001234567"
+                      style="text-decoration: none; color: inherit"
+                      >+92 300 1234567</a
+                    >
+                  </p>
+                  <p class="css">
+                    <a
+                      href="tel:+923001234567"
+                      style="text-decoration: none; color: inherit"
+                      >+92 300 1234567</a
+                    >
+                  </p>
+                </div>
+                <div class="main">
+                  <a href="#" class="a-icons"
+                    ><i class="fa-solid fa-envelope"></i
+                  ></a>
+                  <p class="css sameCss">
+                    <a
+                      href="mailto:example@email.com"
+                      style="text-decoration: none; color: inherit"
+                      >example@email.com</a
+                    >
+                  </p>
+                  <p class="css">
+                    <a
+                      href="mailto:example@email.com"
+                      style="text-decoration: none; color: inherit"
+                      >example@email.com</a
+                    >
+                  </p>
+                </div>
+                <div class="main">
+                  <a href="#" class="a-icons"
+                    ><i class="fa-solid fa-location-dot"></i
+                  ></a>
+                  <p class="css sameCss">
+                    <a
+                      href="https://maps.app.goo.gl/cugTJcJs5gjMjrS3A"
+                      style="text-decoration: none; color: inherit"
+                      >221b Elementry Street</a
+                    >
+                  </p>
+                  <p class="css">
+                    <a
+                      href="https://maps.app.goo.gl/cugTJcJs5gjMjrS3A"
+                      style="text-decoration: none; color: inherit"
+                      >Karachi, Pakistan</a
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <hr />
+
+            <div class="infoTwo">
+              <div class="form-heading">
+                <h2 class="form-heading">Or fill out the form below</h2>
+              </div>
+              <div class="main-label-flex">
+                <div class="form-flexOne">
+                  <div class="form-label">
+                    <p class="label">Inquiry Purpose<sup>*</sup></p>
+                    <input
+                      type="text"
+                      placeholder="Choose one option"
+                      required
+                    />
+                    <small class="error-message"></small>
+                  </div>
+                  <div class="form-label">
+                    <p class="label">Full Name<sup>*</sup></p>
+                    <input
+                      type="text"
+                      placeholder="Enter your full name"
+                      required
+                    />
+                    <small class="error-message"></small>
+                  </div>
+                </div>
+                <div class="form-flexTwo">
+                  <div class="form-label">
+                    <p class="label">Phone Number<sup>*</sup></p>
+                    <input
+                      type="number"
+                      placeholder="Enter your mobile number"
+                      required
+                    />
+                    <small class="error-message"></small>
+                  </div>
+                  <div class="form-label">
+                    <p class="label">Email Address<sup>*</sup></p>
+                    <input
+                      type="email"
+                      placeholder="Enter your email address"
+                      required
+                    />
+                    <small class="error-message"></small>
+                  </div>
+                </div>
+              </div>
+
+              <div class="message-label">
+                <p class="msg">Message (Optional)</p>
+                <textarea
+                  id="message"
+                  class="msg-text"
+                  placeholder="Type your message here..."
+                  required
+                ></textarea>
+                <small class="error-message"></small>
+              </div>
+              <div class="button">
+                <button class="submit-button">Submit</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="end" />
+      <div class="main-content-two">
+        <div class="div-heading">
+          <h1 class="socialInfo">Locations & Social Information</h1>
+        </div>
+
+        <div class="three-flex">
+          <!-- Left Side: Location -->
+          <div class="first-division">
+            <h2 class="division divOneHading">Locations</h2>
+            <div class="adressMap">
+              <ul>
+                <li>
+                  <p class="adress map">
+                    Shop no.20, KDA Lal Flats, main Rashid Minhas Rd
+                  </p>
+                </li>
+              </ul>
+            </div>
+
+            <div class="map-embation">
+              <iframe
+                class="map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3618.697396105132!2d67.10489078216469!3d24.908301486371997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb339dda5a07039%3A0x68bfbf21e18e897a!2sRAS%20SPORTS!5e0!3m2!1sen!2s!4v1745913383798!5m2!1sen!2s"
+                width="100%"
+                height="100%"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+
+            <div class="googleMapBtn">
+              <a
+                href="https://maps.app.goo.gl/KyeyQ8f5dAw1DM3M8"
+                class="map-link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View on Google Map
+              </a>
+            </div>
+          </div>
+
+          <!-- Right Side: Social Icons -->
+          <div class="second-division">
+            <h2 class="division divTwoHading">Social Platforms</h2>
+            <div class="socialIconsMain">
+              <div class="whatsapp same">
+                <a href="#" class="a-whatsapp sameClass">
+                  <i class="fa-brands fa-whatsapp"></i>
+                  <p class="sameClass">
+                    <a
+                      href="tel:+923001234567"
+                      style="text-decoration: none; color: inherit"
+                      >+92 300 1234567</a
+                    >
+                  </p>
+                </a>
+              </div>
+              <div class="youtube same">
+                <a href="#" class="a-youtube sameClass">
+                  <i class="fa-brands fa-youtube"></i>
+                  <p class="sameClass">
+                    <a
+                      href="https://www.youtube.com/"
+                      style="text-decoration: none; color: inherit"
+                      target="_blank"
+                      >https://www.youtube.com/</a
+                    >
+                  </p>
+                </a>
+              </div>
+              <div class="facebook same">
+                <a href="#" class="a-facebook sameClass">
+                  <i class="fa-brands fa-facebook"></i>
+                  <p class="sameClass">
+                    <a
+                      href="https://www.facebook.com/"
+                      style="text-decoration: none; color: inherit"
+                      target="_blank"
+                      >https://www.facebook.com/</a
+                    >
+                  </p>
+                </a>
+              </div>
+              <div class="website same">
+                <a href="#" class="a-website sameClass">
+                  <i class="fa-solid fa-earth-americas"></i>
+                  <p class="sameClass">
+                    <a
+                      href="https://www.instagram.com/darshanravaldz/?hl=en"
+                      style="text-decoration: none; color: inherit"
+                      target="_blank"
+                      >Visit Website</a
+                    >
+                  </p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-column">
+          <h3>About Us</h3>
+          <p>
+            We provide top-quality cricket bats, balls, gear, and accessories
+            for players of all levels. Trusted by athletes across the country.
+          </p>
+        </div>
+        <div class="footer-column">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">FAQs</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>Follow Us</h3>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+        <div class="footer-column">
+          <h3>Contact</h3>
+          <p>Email: info@cricketgear.com</p>
+          <p>Phone: +91 98765 43210</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Cricket Gear Hub. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!--Custom JS -->
+    <script src="app.js"></script>
+  </body>
+</html>
